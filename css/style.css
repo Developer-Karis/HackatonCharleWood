@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Loading */
+
+.nav {
+    background-color: #20205e !important;
+}
+
+.nav li a {
+    color: #00ecba !important;
+    font-size: 25px;
+}
+
+.allVideos .row .col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allVideos .fas {
+    color: #20205e;
+}
+
+.allVideos input {
+    padding: 25px;
+}
+
+.list-group {
+    margin: 0% 7.5% !important;
+}
+
+.list-group-item {
+    font-weight: 600;
+    color: black !important;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    width: 94%;
+    position: absolute;
+    left: 6%;
+}
+
+.list-group-item:hover {
+    background-color: #00ecba !important;
+}
+
+.plus {
+    border: 1px solid black;
+}
+
+.info-video {
+    white-space: pre-line;
+    font-size: 14px;
+}
+
+.commentaires {
+    overflow: auto !important;
+    height: 420px;
+}
+
+.commentaires h6 {
+    font-size: 13px;
+}
+
+footer {
+    background-color: #20205e;
+}
+
+footer h5 {
+    color: #00ecba !important;
+    margin-bottom: 60px;
+}
+
+.linkNetwork {
+    transition: all 0.2s ease-in-out !important;
+}
+
+footer li i:hover {
+    transform: scale(1.2) !important;
+}
+
+footer p,
+footer li a {
+    color: white !important;
+}
+
+.copyright {
+    background-color: #00ecba !important;
+    color: black;
+    font-weight: bold;
+    margin-top: 40px;
+}
